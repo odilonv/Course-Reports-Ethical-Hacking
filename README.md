@@ -1,6 +1,6 @@
 # Ethical-Hacking
 
-Welcome to this repository that compiles two reports from my first year at IMT Mines Alès.
+Welcome to this repository which compiles two reports on the Ethical Hacking subject I studied during my first year at IMT Mines Alès.
 
 ![Alt text](Reports/img/README/image.png)
 
