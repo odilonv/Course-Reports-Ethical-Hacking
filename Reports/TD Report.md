@@ -24,10 +24,18 @@
 **Link :** https://tryhackme.com/room/furthernmap
 
 ## Introduction
-Knowledge is essential in hacking, especially understanding the target system before any exploitation attempt. Port scanning plays a key role in revealing open ports, crucial for network communication. Ports enable the connection between a client and a server, facilitating data exchange. It's noteworthy that each computer has a total of 65535 available ports. However, many of them are registered as standard ports, with 1024 considered "well-known."
- 
 
-Nmap, a widely used tool, is crucial for conducting port scans. With its powerful script engine, it outshines other tools in terms of features, being the industry standard. Successful attacks depend on knowledge of open ports, highlighting the importance of thorough enumeration using tools like nmap.
+```
+Nmap, short for Network Mapper, is an open-source network scanning tool used for discovering hosts and services on a computer network, creating a map of the network topology. It employs various scanning techniques, including port scanning, service version detection, and OS fingerprinting, to provide a comprehensive view of the network. Nmap is known for its flexibility, allowing users to adapt scans based on specific needs. It is widely utilized by security professionals and network administrators to identify open ports, services running on those ports, and potential vulnerabilities. Nmap's scripting engine (NSE) enables the execution of custom scripts for more advanced network exploration. Nmap is an essential tool for network reconnaissance, security auditing, and troubleshooting.
+```
+
+* What networking constructs are used to direct traffic to the right application on a server? "**Ports**"
+
+* How many of these are available on any network-enabled computer? "**65535**"
+
+* [Research] How many of these are considered "well-known"? (These are the "standard" numbers mentioned in the task) "**1024**"
+
+
 
 ## Nmap switches
 Nmap is a command-line penetration testing tool. Available on Windows and Linux, we'll assume usage under Linux. It's installed by default in Kali Linux and the TryHackMe Attack Box.
@@ -205,7 +213,9 @@ Nmap will always treat the target host(s) as being alive, effectively bypassing 
 **Link :** https://tryhackme.com/room/burpsuitebasics
 
 ## What is Burp Suite ?
-Burp Suite is a Java-based framework designed to serve as a comprehensive solution for conducting web application penetration testing. 
+```
+Burp Suite is a leading web application security testing tool used for assessing and securing web applications. It offers a comprehensive set of features for manual and automated testing. Burp Suite includes a proxy, scanner, and various other tools to identify and address security vulnerabilities. Its graphical interface to intercept and modify HTTP/S traffic, analyze requests and responses, and identify potential weaknesses like cross-site scripting (XSS) and SQL injection. The tool's scanning capabilities automate the detection of vulnerabilities, while its advanced features support in-depth manual testing. Burp Suite is widely adopted for both educational purposes and professional security assessments, playing a crucial role in ensuring the robustness of web applications.
+```
 
 Burp Suite is available in different editions. 
 
@@ -436,7 +446,9 @@ The example demonstrates a successful Cross-Site Scripting (XSS) attack on a web
 
 ## Introduction
 
-SQLmap is an open-source penetration testing tool that automates the detection and exploitation of SQL injection flaws.
+```
+SQLmap is an open-source penetration testing tool designed to automate the detection and exploitation of SQL injection vulnerabilities in database-driven applications. It provides a command-line interface for security professionals and ethical hackers to identify and exploit SQL injection flaws. The tool automates the process of fingerprinting the database, extracting data, and even escalating privileges on compromised systems. SQLmap's versatility makes it a valuable asset in security assessments and ethical hacking exercises, aiding in the identification and remediation of SQL injection vulnerabilities. 
+```
 
 
 ## Using SQLMap
@@ -579,8 +591,9 @@ So I decide to display all the data and I come across the flag!
 **Link :** https://tryhackme.com/room/metasploitintro
 
 ## Introduction
-
-Metasploit is the most widely used exploitation framework. Metasploit is a powerful tool that can support all phases of a penetration testing engagement, from information gathering to post-exploitation.
+```
+Metasploit is an open-source penetration testing framework widely employed to assess the security of computer systems. It provides a modular platform for developing, testing, and executing exploits against specific vulnerabilities. With an extensive library of exploits, shells, payloads, and tools, users can create complex penetration testing scenarios using existing modules or by developing their own. Supporting various protocols and services, it simulates attacks on diverse systems, including networks, web applications, and servers. Metasploit is utilized for educational, security research, and security auditing purposes to identify and address vulnerabilities.
+```
 
 The three main components of the Metasploit Framework :
 * msfconsole
